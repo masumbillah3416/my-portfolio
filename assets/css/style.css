@@ -326,7 +326,10 @@ section {
 }
 
 .subsection-title span {
-  font-size: 48px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
 }
 
 .subsection-title h4 {
@@ -336,17 +339,6 @@ section {
   padding-bottom: 5px;
   position: relative;
   color: #173b6c;
-}
-
-.subsection-title h4::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #149ddd;
-  bottom: 0;
-  left: 0;
 }
 
 .section-title p {
